@@ -4,7 +4,7 @@ import PySimpleGUI as sg
 
 fnt = 'Arial 13'
 
-sg.theme('DarkAmber')   # Add a touch of color
+sg.theme('DarkAmber')
 
 layout = [  [sg.Text('Genel Yetenek D-Y'), sg.Push(), sg.InputText(size=(5, 30)), sg.InputText(size=(5, 30))],
             [sg.Text('Genel Kültür D-Y'), sg.Push(), sg.InputText(size=(5, 30)), sg.InputText(size=(5, 30))],
@@ -23,11 +23,11 @@ hamort_gy = 20.5
 # Genel Kültür
 ssapma_gk = 8
 hamort_gk = 22.01
-# Eğitim
+# Eğitim Bilimleri
 ssapma_eg = 14.46
 hamort_eg = 37.15
 
-ssapma_ort = 50
+ssapma_ort = 50 # ÖSYM tarafından açıklanmayan ağırlıklı puanların standart sapması
 
 
 # Genel Yetenek Puan Hesaplama
